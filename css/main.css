@@ -1,6 +1,35 @@
 @import url(./fonts.css);
 
+/* CUSTOM PROPS */
 
-p {
-    font-family: "Inter";
+:root {
+    --White: #fff;
+    --Neon-Green: #C4F82A;
+    --Inter: "Inter";
+    --Body-color: #141414;
+}
+
+
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--Inter);
+    background-color: var(--Body-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
